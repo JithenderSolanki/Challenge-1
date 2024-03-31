@@ -5,7 +5,9 @@ This project entails developing a data processing pipeline aimed at handling a l
 ## Deployment
 To deploy this project, follow these steps:
 1. Ensure that `tsx` is already installed.
-   npm install -g tsx
+```bash
+  npm install -g tsx
+```
 2. Run the following commands:
    
 ```bash
