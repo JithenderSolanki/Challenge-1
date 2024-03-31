@@ -3,9 +3,11 @@
 This project entails developing a data processing pipeline aimed at handling a large sizable .tar.gz file containing datasets of organizations and customers. The pipeline's primary objectives include downloading the file securely, extracting and decompressing its contents, parsing the CSV files contained within, and ultimately inserting the parsed data into a SQLite database.
 
 ## Deployment
-
-To deploy this project run
-
+To deploy this project, follow these steps:
+1. Ensure that `tsx` is already installed.
+   npm install -g tsx
+2. Run the following commands:
+   
 ```bash
   npm install
   tsx runner.ts
